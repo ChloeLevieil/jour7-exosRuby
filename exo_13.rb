@@ -1,10 +1,5 @@
-#BDD = Array.new
-BDD=[]
-50.times do |bonbons|
-  mail="jean.dupont#{bonbons+1}@email.fr"
-  BDD . push (mail)
-end
-
-puts "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _"
-
-puts BDD
+BDD = Array[
+  50.times do |bonbons|
+    puts "jean-michel.clown#{bonbons+1}@email.fr"
+          end
+]
