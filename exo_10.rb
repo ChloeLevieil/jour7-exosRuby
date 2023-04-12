@@ -3,7 +3,7 @@ print ">"
 
 birthyear=gets.chomp.to_i
 
-birthyear.upto(2023) do |cheval|
-    puts cheval
-    puts "tu avais #{cheval-birthyear}"
+birthyear.upto(2023) do |bonbons|
+    puts bonbons
+    puts "tu avais #{bonbons-birthyear}"
 end 
